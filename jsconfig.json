@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      // This is the common alias shadcn/ui expects:
+      "@/*": [
+        "./src/*"
+      ]
+    }
+  }
+}
