@@ -100,8 +100,8 @@ const certifications = [
     issuer: 'Linux Foundation',
     date: 'Fall 2022',
     type: 'pdf',
-    pdfId: 'YOUR_GOOGLE_DRIVE_PDF_ID',
-    verifyLink: '#'
+    pdfId: '1vUK6HC9w5xP6FscmroLduq1yibmI1cjp',
+    verifyLink: 'https://drive.google.com/file/d/1vUK6HC9w5xP6FscmroLduq1yibmI1cjp/view?usp=sharing'
   },
 ];
 
@@ -675,8 +675,8 @@ function App() {
         </div>
       </section>
 
-      <section id="contact" className="section">
-        <div className="container-center" style={{ maxWidth: '800px' }}>
+      <section id="contact" className="section-contact-adjusted  ">
+          <div className="container-center" style={{ maxWidth: '800px' }}>
           <h2 className="section-title">Let's Connect</h2>
           <p className="section-subtitle">
             Feel free to reach out for collaborations, opportunities, or just a friendly chat!
@@ -712,7 +712,7 @@ function App() {
           </div>
 
           <div className="footer">
-            <p>© 2025 Osama Khaled. Built with React & Motion</p>
+            <p>© 2025 Osama Khaled. Always learning,always creating. </p>
           </div>
         </div>
       </section>
@@ -893,7 +893,7 @@ function App() {
           display: flex;
           flex-direction: column;
           justify-content: center;
-          padding: 6rem 2rem;
+          padding: 4rem 2rem;
           font-family: system-ui, -apple-system, sans-serif;
           scroll-margin-top: 100px;
           will-change: scroll-position;
@@ -1507,6 +1507,18 @@ function App() {
           border-top: 1px solid var(--card-border);
           opacity: 0.7;
           font-size: 0.9rem;
+          margin-bottom: 0;
+        }
+          .section-contact-adjusted {
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          padding-bottom: 3rem;
+          padding: 3rem 2rem;
+          font-family: system-ui, -apple-system, sans-serif;
+          scroll-margin-top: 100px;
+          will-change: scroll-position;
         }
 
         @media (max-width: 768px) {
